@@ -4,13 +4,19 @@
 <head>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
-        (function (m, e, t, r, i, k, a) {
-            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
             m[i].l = 1 * new Date();
-            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
             k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
         })
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
         ym(96433025, "init", {
             clickmap: true,
@@ -40,8 +46,7 @@
                 <ul class="menu navbar-list">
                     <li class="navbar-item"><a href="buy.html" class="navbar-link">Услуги</a></li>
                     <li class="navbar-item"><a href="#check" class="navbar-link">Акции</a></li>
-                    <li class="navbar-item"><a href="index.html" class="navbar-link nl-img"><img src="img/Frame 1.svg"
-                                alt=""></a></li>
+                    <li class="navbar-item"><a href="index.html" class="navbar-link nl-img"><img src="img/Frame 1.svg" alt=""></a></li>
                     <li class="navbar-item"><a href="sell.html" class="navbar-link">О нас</a></li>
                     <li class="navbar-item"><a href="#" class="navbar-link js-open-modal" data-modal="1">Подать
                             заявку</a></li>
@@ -69,16 +74,18 @@
             <a href="#" class="js-open-modal" data-modal="1"></a>
             <div class="modal" data-modal="1">
                 <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path
-                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                    <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
                 </svg>
                 <br>
                 <div class="enter-form">
-                    <div class="enter-voyti">Заявка</div>
-                    <input class="input-modal" type="text" placeholder="Номер телефона">
-                    <input class="input-modal" type="text" placeholder="Email">
-                    <input class="input-modal" type="text" placeholder="Что вы хотите улучшить?">
-                    <button class="btn-continue">Отправить</button>
+                    <form action="save_application.php" method="post">
+                        <div class="enter-voyti">Заявка</div>
+                        <input class="input-modal" type="text" name="phone_number" placeholder="Номер телефона">
+                        <input class="input-modal" type="text" name="email" placeholder="Email">
+                        <input class="input-modal" type="text" name="improvement" placeholder="Что вы хотите улучшить?">
+                        <button class="btn-continue" type="submit" name="submit">Отправить</button>
+                    </form>
+
                 </div>
             </div>
         </div>
