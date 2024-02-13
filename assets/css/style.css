@@ -495,7 +495,7 @@ body {
   text-align: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 460px) {
   .navbar {
     display: block;
     position: absolute;
