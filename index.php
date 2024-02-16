@@ -30,6 +30,9 @@
     </noscript>
     <!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -46,8 +49,8 @@
                 <ul class="menu navbar-list">
                     <li class="navbar-item"><a href="buy.html" class="navbar-link">Услуги</a></li>
                     <li class="navbar-item"><a href="#check" class="navbar-link">Акции</a></li>
-                    <li class="navbar-item"><a href="index.html" class="navbar-link nl-img"><img src="img/Frame 1.svg" alt=""></a></li>
-                    <li class="navbar-item"><a href="sell.html" class="navbar-link">О нас</a></li>
+                    <li class="navbar-item"><a href="index.php" class="navbar-link nl-img"><img src="img/Frame 1.svg" alt=""></a></li>
+                    <li class="navbar-item"><a href="about.html" class="navbar-link">О нас</a></li>
                     <li class="navbar-item"><a href="#" class="navbar-link js-open-modal" data-modal="1">Подать
                             заявку</a></li>
                 </ul>
@@ -69,8 +72,7 @@
                 <div class="bg-gray"></div>
                 <img class="slide-img  up" src="img/bg3.jpg" alt="">
             </div>
-            <button onclick="plusSlides(-1)" class="prev">&#10094;</button>
-            <button onclick="plusSlides(1)" class="next">&#10095;</button>
+            
             <a href="#" class="js-open-modal" data-modal="1"></a>
             <div class="modal" data-modal="1">
                 <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -91,6 +93,61 @@
         </div>
         <br>
     </header>
+    <div class="gen-title">
+        <h1 class="gen-title-text">Новости</h1>
+    </div>
+    <div class="news-block">
+    <div class="news-1">
+                <div class="news-img-1"><img src="img/m3.jpg" alt=""></div>
+                <div class="news-text-1">
+                    <div class="news-titlewd">
+                        <a href="#" class="news-link">
+                            <h3 class="news-title">Новая модель M3</h3>
+                        </a>
+                        <div class="news-date">02.24</div>
+                    </div>
+                    <div class="news-discr">Компания BMW представила новую модель M3, которая получила ряд обновлений,
+                        включая улучшенную систему подвески и более мощный двигатель.</div>
+                </div>
+            </div>
+            <div class="news-1">
+                <div class="news-img-1"><img src="img/m3.jpg" alt=""></div>
+                <div class="news-text-1">
+                    <div class="news-titlewd">
+                        <a href="#" class="news-link">
+                            <h3 class="news-title">Новая модель M3</h3>
+                        </a>
+                        <div class="news-date">02.24</div>
+                    </div>
+                    <div class="news-discr">Компания BMW представила новую модель M3, которая получила ряд обновлений,
+                        включая улучшенную систему подвески и более мощный двигатель.</div>
+                </div>
+            </div>
+        <div class="news-column">
+       
+            <div class="news-2">
+                <div class="news-text-1">
+                    <div class="news-titlewd">
+                        <a href="#" class="news-link">
+                            <h3 class="news-title">Компания Audi представила новую модель A4</h3>
+                        </a>
+                        <div class="news-date">20.03.23</div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-2">
+                <div class="news-text-1">
+                    <div class="news-titlewd">
+                        <a href="#" class="news-link">
+                            <h3 class="news-title">Компания Audi представила новую модель A4</h3>
+                        </a>
+                        <div class="news-date">20.03.23</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <div class="gen-title">
         <h1 class="gen-title-text" id="check">Актуальные акции</h1>
     </div>
@@ -129,66 +186,13 @@
         <button class="prev_button-2">&#10094;</button>
         <button class="next_button-2">&#10095;</button>
     </div>
-    <div class="gen-title">
-        <h1 class="gen-title-text">Новости</h1>
-    </div>
-    <div class="news-block">
-        <div class="news-big">
-            <div class="news-img-big"><img src="img/mustang.jpg" alt=""></div>
-            <div class="news-text-big">
-                <div class="news-titlewd-big">
-                    <a href="#" class="news-link">
-                        <h3 class="news-title-big">Новый Мустанг</h3>
-                    </a>
-                    <div class="news-date-big">05.23</div>
-                </div>
-                <div class="news-discr-big">Компания Ford выпустила ограниченную серию модели Mustang, которая
-                    отличается эксклюзивным дизайном и улучшенными техническими характеристиками.</div>
-            </div>
-        </div>
-        <div class="news-column">
-            <div class="news-1">
-                <div class="news-img-1"><img src="img/m3.jpg" alt=""></div>
-                <div class="news-text-1">
-                    <div class="news-titlewd">
-                        <a href="#" class="news-link">
-                            <h3 class="news-title">Новая модель M3</h3>
-                        </a>
-                        <div class="news-date">02.24</div>
-                    </div>
-                    <div class="news-discr">Компания BMW представила новую модель M3, которая получила ряд обновлений,
-                        включая улучшенную систему подвески и более мощный двигатель.</div>
-                </div>
-            </div>
-            <div class="news-2">
-                <div class="news-text-1">
-                    <div class="news-titlewd">
-                        <a href="#" class="news-link">
-                            <h3 class="news-title">Компания Audi представила новую модель A4</h3>
-                        </a>
-                        <div class="news-date">20.03.23</div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-    </div>
+    
     <footer class="footer">
         <div class="footer-nav">
             <div class="footer-comp">
                 <div class="link-title">T-CAR</div>
-                <a href="#" class="vkcom"><img src="img/vk-48.png" alt=""></a>
-                <a href="#" class="tgram"><img src="img/telegram-3-48.png" alt=""></a>
             </div>
-            <div class="footer-links">
-                <div class="footer-col1">
-                    <div class="link-title .link-titlefm">Поддержка</div>
-                    <a href="#" class="footer-link">Обратная связь</a>
-                </div>
-                <div class="footer-col1">
-                    <div class="link-title .link-titlefm">Правила</div>
-                    <a href="#" class="footer-link">г. Чебоксары, проспект Мира 100</a>
-                </div>
             </div>
         </div>
         <div class="copyright">©2024 T-CAR</div>
