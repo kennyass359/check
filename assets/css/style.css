@@ -950,6 +950,7 @@ body {
     height: 700px;
     display: flex;
     margin: auto;
+    flex-direction: column;
   }
 
   .news-1 {
