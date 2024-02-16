@@ -521,6 +521,10 @@ body {
     display: block;
   }
 
+   #zhest {
+     display:none;
+   }
+
   .navbar.open-menu {
     left: 0;
     z-index: 6;
