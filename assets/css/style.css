@@ -862,9 +862,10 @@ body {
     width: 360px;
     height: 600px;
     overflow: hidden;
-    margin: auto;
     border-radius: 10%;
     border-radius: 10%;
+    margin-top: 700px;
+    
 
   }
 
